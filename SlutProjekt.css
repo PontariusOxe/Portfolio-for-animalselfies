@@ -1,19 +1,28 @@
-nav {
+.navbar {
     height: 13vh;
     text-align:left;
     align-items: center;
     display: flex;
     padding-left: 5vh;
-    margin: 0px;
     background-color: blanchedalmond;
 }
-p {
+.hero, nav {
     padding: 0px;
     margin: 0px;
 }
-/* */
-.HeroTitle {
+.hero {
     background-color: black;
     color: white;
-    height: 40vh;
+    height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herotitle {
+    font-size: 5vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
