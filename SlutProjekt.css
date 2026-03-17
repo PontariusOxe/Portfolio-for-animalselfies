@@ -1,0 +1,19 @@
+nav {
+    height: 13vh;
+    text-align:left;
+    align-items: center;
+    display: flex;
+    padding-left: 5vh;
+    margin: 0px;
+    background-color: blanchedalmond;
+}
+p {
+    padding: 0px;
+    margin: 0px;
+}
+/* */
+.HeroTitle {
+    background-color: black;
+    color: white;
+    height: 40vh;
+}
