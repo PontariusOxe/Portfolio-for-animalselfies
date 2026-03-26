@@ -10,19 +10,31 @@
     padding: 0px;
     margin: 0px;
 }
-.hero {
-    background-color: black;
-    color: white;
-    height: 77vh;
+.hero, .content, .herotitle {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.hero {
+    height: 82vh;
+    background-color: black;
+    color: white;
+}
 .herotitle {
-    font-size: 5vh;
+    font-size: 7vh;
     width: 100%;
     height: 100%;
+}
+.content{
+    height: 87vh;
+    background-color: blanchedalmond;
+    color: black;
+}
+.footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
