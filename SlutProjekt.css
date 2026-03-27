@@ -3,13 +3,15 @@
     text-align:left;
     align-items: center;
     display: flex;
-    padding-left: 5vh;
+    padding-left: 5vw;
     background-color: blanchedalmond;
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    gap:10vw;
+    justify-content: space-between;
 }
-.hero, nav {
-    padding: 0px;
-    margin: 0px;
-}
+
 .hero, .content, .herotitle {
     display: flex;
     justify-content: center;
@@ -30,11 +32,44 @@
     background-color: blanchedalmond;
     color: black;
 }
-.footer {
+footer {
     height: 20vh;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.navlinks {
+    list-style: none;
+    display: inline-flex;
+    gap: 3vw;
+    padding-right: 4vw;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    background-color: aqua;
+    padding: 1vh 2vw;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    color: white;
+    background-color: #007bff;
+    transition: all 0.3s;
+}
+.gallery1 {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    gap: 5vw;
+}
+.gallery2 {
+    display: flex;
+    height: 100vh;
+    background-color: blanchedalmond;
+    color: black;
+    gap: 5vw;
 }
