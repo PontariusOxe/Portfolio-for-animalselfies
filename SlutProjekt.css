@@ -8,19 +8,29 @@
     text-decoration: none;
     color: black;
     font-size: 3vh;
-    gap:10vw;
     justify-content: space-between;
 }
 
-.hero, .content, .herotitle {
+.hero, .content, .herotitle{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .hero {
     height: 82vh;
-    background-color: black;
     color: white;
+    position: relative;
+    overflow: hidden;
+}
+.herobg {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("Tiger.png");
+    background-size:cover;
+    filter: blur(5px);
+    z-index: -1;
+    margin-top: -7.5%;
 }
 .herotitle {
     font-size: 7vh;
@@ -31,6 +41,7 @@
     height: 87vh;
     background-color: blanchedalmond;
     color: black;
+    gap: 1vw;
 }
 footer {
     height: 20vh;
@@ -43,7 +54,7 @@ footer {
 .navlinks {
     list-style: none;
     display: inline-flex;
-    gap: 3vw;
+    gap: 1vw;
     padding-right: 4vw;
 }
 .button {
@@ -72,4 +83,9 @@ footer {
     background-color: blanchedalmond;
     color: black;
     gap: 5vw;
+}
+.cat {
+    width: 40vw;
+    height: auto;
+    border: 0.5vmax solid black;
 }
