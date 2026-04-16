@@ -9,18 +9,35 @@
         CompanyName
         <nav>
             <ul class="navlinks">
-                <li><a href="home.html" class="button">Home</a></li>
-                <li><a href="gallery.html" class="button">Gallery & Prices</a></li>
-                <li><a href="about.html" class="button">About & Contact</a></li>
+                <li><button id="homeBtn" class="button">Home</button></li>
+                <li><button id="gallerypricesBtn" class="button">Gallery & Prices</button></li>
             </ul>
         </nav>
     </header>
     <section class="gallery1">
-        <h1></h1>
+        <ul>
+            <li><img src="Tiger.png" alt="Tiger" class="card"></li>
+        </ul>
     </section>  
     <section class="gallery2">
         <h1></h1>
     </section>  
+    <footer>
+        <ul>
+            <li>
+                <button id="aboutBtn" class="footbutton" type="button">About</button>
+            </li>
+            <li>
+                <div class="contact-row">
+                    <button id="contactBtn" class="footbutton" type="button">Contact</button>
+                    <div id="contactText" class="contact-text">
+                        Companyname@company.com +46726409246
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </footer>
+    <script src="js.js"></script>
 </body>
 
 </html>
